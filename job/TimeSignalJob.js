@@ -10,7 +10,7 @@ class TimeSignalJob {
 
     constructor() {
         const timeSignal = new cron({
-            cronTime: '0 0 * * * *',
+            cronTime: '0 0 6-22 * * *',
             start: false,
             timeZone: 'Asia/Tokyo',
             onTick: () => {
