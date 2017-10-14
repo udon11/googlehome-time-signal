@@ -1,0 +1,27 @@
+{
+  "name": "googlehome-time-signal",
+  "version": "1.0.0",
+  "description": "Google Home Time Signal Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/udon11/googlehome-time-signal"
+  },
+  "keywords": [
+    "Google Home",
+    "google-home-notifier",
+    "node",
+    "IoT"
+  ],
+  "author": "udon11",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^1.26.2",
+    "cron": "^1.3.0",
+    "moment": "^2.19.1",
+    "superagent": "^3.6.3"
+  }
+}
